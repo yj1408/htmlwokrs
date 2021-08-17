@@ -1,0 +1,25 @@
+header{
+    height: 60px;
+    margin: 10px;
+    background-color: beige;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 10px 20px;
+    border-top:3px solid #333;
+    padding:10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+}
+nav ul li:hover{
+    background-color: #eee;
+}
+section{
+    background-color: rgb(207,248,235);
+    height: 500px;
+}

@@ -1,0 +1,10 @@
+table,td,th{
+    /* 표의 크기 및 테두리 */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    margin: 10px;
+}

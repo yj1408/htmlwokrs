@@ -1,0 +1,7 @@
+h1{color: rgb(0,255,255);}
+p{
+/* p{text-align: center;} */
+text-align : left;
+line-height : 2em;
+/* 2em은 2배로 확대 */
+}
