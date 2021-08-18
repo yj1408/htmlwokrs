@@ -1,0 +1,30 @@
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+/* header 영역 스타일 */
+header{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+/* section 영역 스타일 */
+section{
+    width:640px;
+    height: 600px;
+    border: 1px solid #ccc;
+    float:left;
+    padding: 20px;
+}
+aside{
+    width: 220px;
+    border: 1px solid #ccc;
+    height: 600px;
+    padding: 20px;
+    float:right;
+}
+/* footer 영역 스타일 */
+footer{
+    border: 1px solid #ccc;
+    clear:both;
+    height: 100px;
+}
