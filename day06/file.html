@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>파일 첨부</title>
+    <style>
+        #container{
+            width: 700px;
+            margin: 0 auto;
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+        .button{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <form action="{% url 'pyweb:list' %}" method="POST">
+    <fieldset>
+        <legend>반품 정보</legend>
+        <p>만일 수령한 상품에 문제가 있다면 즉시 반품신청 해주세요.</p>
+        <p>반품 신청시 상품의 상태를 사진으로 첨부 해주세요</p>
+        <hr>
+        <input type="file" name="img">
+    </fieldset>
+    <div class="button">
+        <input type="submit" value="반품 신청">
+        <input type="reset" value="취소 하기">
+    </div>
+    </form>
+    </div>
+</body>
+</html>
