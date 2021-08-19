@@ -1,0 +1,31 @@
+#container{
+    width: 650px;
+    margin: 0 auto;
+    padding: 5px;
+}
+#check{
+    width: 640px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+h1{
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;  /*글자크기 16px*/  
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+h2{
+    color: #f00;
+    font-size: 1.7em;
+}
+p{
+    line-height: 2;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.accent{
+    color: #00f;
+}
+.smalltext{font-size: 0.7em;}

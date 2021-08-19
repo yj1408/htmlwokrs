@@ -1,0 +1,54 @@
+*{
+    margin: 0; padding: 0;
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* header 스타일 */
+header{
+    height: 80px;
+    background-color: rgb(12,94,87);
+    margin-bottom: 20px;
+}
+/* logo 스타일 */
+#logo{
+    width: 250px;
+    float:left;
+    padding-left: 30px;
+    line-height: 80px;
+    /* height와 같은 크기이면 수직 가운데 정렬됨 */
+}
+#logo a{
+    text-decoration: none;
+    color: #fff;
+}
+#logo a:hover{
+    color:yellow
+}
+/* nav 스타일 */
+nav{
+    height: 80px;
+    line-height: 30px;
+    float:right;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color:yellow;
+}
+/* section 스타일 */
+section{
+    padding: 20px;
+}
