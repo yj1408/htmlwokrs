@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0px;
+}
+/* content 스타일 */
+#content{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #ccc;
+    background: url(../imges/bg.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    font-size: 120px;
+    color:white;
+    position: absolute;
+    bottom: 50px;
+    right:100px;
+    text-shadow: 10px 10px 20px blue;
+}
