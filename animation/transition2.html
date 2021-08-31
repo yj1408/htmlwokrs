@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트랜지션 예제</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: #00f;
+            margin: 100px;
+            /* 트랜지션 스타일 적용 */
+            transition-property: width height transform;
+            transition-timing-function: ease-in;
+            /* ease-in : 느리게 시작, 끝날때는 그대로 */
+            /* ease-out : 시작은 그대로, 끝날때는 느리게 */
+            transition-duration: 2s, 2s, 5s;
+            /* all 은 생략 가능 */
+        }
+        .box:hover{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(216, 219, 9);
+            /* transform: rotate(180deg); */
+            transform: scale(15);
+        }
+    </style>
+
+</head>
+<body>
+    <div class='box'></div>
+</body>
+</html>

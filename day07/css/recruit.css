@@ -1,0 +1,23 @@
+body{
+    background-color: #02233b;
+}
+#container{
+    background :url('../imges/mic.png') no-repeat right bottom; 
+    background-color: white;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ul li{
+    list-style: none;
+    font-weight: bold;
+}
+h1{ background-color: #004344; 
+    color:white; 
+    text-align: center;
+    padding: 20px; 
+    margin: 0px;
+}
+h2{ }
+h3{color: red; padding: left;}
